@@ -24,7 +24,7 @@ body {
 
 .showcase {
     background-color: var(--primary-color);
-    color: #fff;
+    color: rgb(255,215,0);
     height: 100vh;
     position: relative;
 }
@@ -56,7 +56,7 @@ body {
 
 .showcase h1 {
     font-size: calc(5px + 5vw);
-    text-decoration-color: rgb(5, 238, 255);
+    text-decoration-color: rgb(218,165,32);
 }
 
 .showcase p {
