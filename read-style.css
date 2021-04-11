@@ -57,19 +57,19 @@ section p {
 
 /* Section Images */
 section#history {
-    background: url('img/philosophy.jpg') no-repeat center center/cover;;
+    background: url('img/AquaWater.jfif') no-repeat center center/cover;;
 }
   
 section#education {
-    background: url('img/lib.jpg') no-repeat center center/cover;;
+    background: url('img/warmWater.jfif') no-repeat center center/cover;;
 }
   
 section#experience {
-    background: url('img/pen.jpg') no-repeat center center/cover;;
+    background: url('img/Watercolor.jfif') no-repeat center center/cover;;
 }
   
 section#summary {
-    background: url('img/latin-corner.jpg') no-repeat center center/cover;;
+    background: url('img/Pink&grey.jfif') no-repeat center center/cover;;
 }
 
 .btn {
