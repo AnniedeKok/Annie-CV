@@ -31,7 +31,7 @@ body {
 
 .showcase:before {
     content: '';
-    background-image: url('img/mallet.jpg');
+    background-image: url('img/Gold-brush-square.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
