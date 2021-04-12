@@ -95,6 +95,8 @@ section p {
   /* Add a background color on hover */
   .btn-group button:hover {
     background-color:rgb(234, 253, 60);
+    transform: translate(0, -10px);
+    transition: 0.6s;
   }
 
 /* Section Images */
@@ -126,21 +128,6 @@ section#summary {
     background: url('img/danilo-batista-rPcmg9q8dKU-unsplash.jpg') no-repeat center center/cover;;
 }
 
-.btn {
-    display: inline-block;
-    border: none;
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 0.75rem 1.5rem;
-    margin-top: 1rem;
-    text-decoration: underline;
-    text-decoration-color:  rgb(255,215,0);
-    transition: opacity 1s ease-in;
-}
-
-.btn:hover {
-    opacity: 0.7;
-}
 /*
 @media screen and (max-width: 750px){
     .container {
