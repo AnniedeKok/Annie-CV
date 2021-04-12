@@ -56,11 +56,14 @@ body {
 
 .showcase h1 {
     font-size: calc(5px + 5vw);
-    text-decoration-color: rgb(218,165,32);
+    text-decoration-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.582) ;
 }
 
 .showcase p {
     font-size: calc(3px + 3vw);
+    text-decoration-color:  rgb(0, 0, 0);
+    background-color: rgba(224, 224, 224, 0.774) ;
 }
 
 .btn {
@@ -79,6 +82,40 @@ body {
     opacity: 0.7;
 }
 
+.clickme {
+    background-color:rgba(255, 255, 255, 0.582) ;
+    padding: 4px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration:underline;
+    text-decoration-color:rgb(234, 253, 60);
+    border-radius:3px;
+    cursor:pointer;
+}
+
+.btn-group button {
+    background-color: rgba(255, 255, 255, 0.582) ;
+    border: 1px solid rgba(255, 255, 255, 0.699) ;
+    color: rgb(0, 0, 0); 
+    padding: 10px 24px; 
+    text-transform: capitalize;
+    text-overflow: inherit;
+    cursor: pointer; 
+    float: left; 
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color:rgb(234, 253, 60);
+  }
 .social-menu ul {
     position: absolute;
     top: 80%;
